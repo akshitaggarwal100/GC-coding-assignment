@@ -1,0 +1,22 @@
+1) I created the project using vite using the command "npm create vite@latest"
+
+2) Then I named the project as GC_assignment and selected the framework React
+
+3) then a folder by the name GC_assignment was created.
+
+4) then cd to GC_assignment and ran command "npm install".
+
+
+Steps to start this project:
+
+1) cd inside data-api folder.
+
+2) run command npm run start.
+
+3) open a new terminal.
+
+4) cd inside GC_assignment folder.
+
+5) run command "npm run dev".
+
+6) ctrl + click on local link or copy and paste it into the browser.

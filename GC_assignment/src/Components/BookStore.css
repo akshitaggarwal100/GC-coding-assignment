@@ -1,0 +1,141 @@
+.bookStoreCard {
+    width: 800px;
+    border: 1px solid #463f4e;
+    border-radius: 7px;
+    padding: 1.5rem 1.5rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #1f2122;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.BSimg {
+    width: 150px;
+    height: 150px;
+    margin-right: 1.5rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.storeRating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.storeRating h1 {
+    margin: 0;
+}
+
+.storeInfo {
+    flex-grow: 1;
+}
+
+.booksTable {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.booksTable,
+th,
+td {
+    border: 1px solid;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+.booksTable thead {
+    text-align: left;
+}
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lower img {
+    height: 36px;
+    border-radius: 5px;
+}
+
+.lower p {
+    display: inline;
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.lower a {
+    text-decoration: none;
+    color: #48cae4;
+}
+
+@media (max-width: 850px) {
+    .bookStoreCard {
+        width: 600px;
+    }
+
+    th,
+    td {
+        padding: 3px;
+        font-size: 1rem;
+    }
+
+    .storeRating h1 {
+        font-size: 1.7rem;
+    }
+
+    .lower a,
+    .lower p {
+        font-size: 1.2rem;
+    }
+
+    .lower img {
+        height: 30px;
+    }
+}
+
+@media (max-width: 650px) {
+    .bookStoreCard {
+        width: 400px;
+        padding: 1.3rem 1.3rem 1rem;
+    }
+
+    .upper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .BSimg {
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .bookStoreCard {
+        width: 350px;
+        padding: 1.3rem 1.3rem 1rem;
+    }
+
+    .lower a,
+    .lower p {
+        font-size: 1rem;
+    }
+
+    .lower img {
+        height: 28px;
+    }
+}
